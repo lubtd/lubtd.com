@@ -5,13 +5,14 @@ const meta = {
 };
 
 const introdata = {
+    portrait: "https://i.imgur.com/DMnZsiY.png",
     title: "I’m Lucas,",
     animated: {
         first: "a DeFi builder.",
         second: "a product leader.",
         third: "a software engineer.",
     },
-    description: "I am a French mathematics graduate working in blockchain technology. I am dedicated to delivering high-quality products and solutions.",
+    description: "I'm a French mathematics graduate working in blockchain technology for more than 4 years. I'm dedicated to delivering high-quality solutions to drive positive changes in the finance industry.",
     your_img_url: "https://i.imgur.com/RMrFwlq.jpg",
 };
 

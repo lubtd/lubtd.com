@@ -232,3 +232,17 @@ section {
 .intro_sec .h_bg-image {
     filter: saturate(0.5);
 }
+
+.portrait {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.portrait img {
+    width: 100%;
+    border-radius: 40%;
+}
