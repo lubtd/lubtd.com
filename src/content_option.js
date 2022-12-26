@@ -1,137 +1,55 @@
-const logotext = "JOHN";
+const logotext = "lubtd";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "lubtd",
+    description: "Lucas",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Lucas,",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "a DeFi builder.",
+        second: "a product leader.",
+        third: "a software engineer.",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I am a French mathematics graduate working in blockchain technology. I am dedicated to delivering high-quality products and solutions.",
+    your_img_url: "https://i.imgur.com/RMrFwlq.jpg",
 };
 
-const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
-};
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+const dataprojects = [{
+        img: "https://i.imgur.com/etECAzp.png",
+        title: "Ignite CLI",
+        desctiption: "A CLI tool to build app chains, used by the major actors of the Cosmos ecosystem. I'm part of the core team of the project.",
+        link: "https://github.com/ignite/cli",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        img: "https://i.imgur.com/SAYLq5h.png",
+        title: "Ignite Chain",
+        desctiption: "A blockchain to launch new blockchains. I'm the main architect and contributor of the project.",
+        link: "https://github.com/tendermint/spn",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
-
-const skills = [{
-        name: "Python",
-        value: 90,
+        img: "https://i.imgur.com/13C8JI5.png",
+        title: "Request Protocol",
+        desctiption: "An open network for payment requests. I contributed to the design and development of the different layers of the protocol.",
+        link: "https://github.com/RequestNetwork/requestNetwork",
     },
     {
-        name: "Djano",
-        value: 85,
+        img: "https://i.imgur.com/Mfq75Wv.png",
+        title: "Ignite Modules",
+        desctiption: "A collection of modules to harness the modularity of the Cosmos SDK. I'm the main architect of the project.",
+        link: "https://github.com/ignite/modules",
     },
     {
-        name: "Javascript",
-        value: 80,
+        img: "https://i.imgur.com/mRpnZeZ.png",
+        title: "Ignite Chain Whitepaper",
+        desctiption: "A concise and comprehensive whitepaper for Ignite Chain. I'm the main writer of the paper.",
+        link: "https://github.com/tendermint/spn/blob/main/papers/whitepaper.pdf",
     },
     {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
-];
-
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
-
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/6jxtVxc.png",
+        title: "Interchange",
+        desctiption: "A tutorial to build a decentralized exchange powered by IBC protocol. I wrote the concept and first version of the module.",
+        link: "https://docs.ignite.com/guide/interchange",
     },
 ];
 
@@ -147,20 +65,14 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
-    youtube: "https://youtube.com",
-    twitch: "https://twitch.com",
+    github: "https://github.com/lubtd",
+    linkedin: "https://www.linkedin.com/in/lucas-bertrand/",
+    twitter: "https://twitter.com/lubtd",
+    telegram: "https://t.me/lubtd",
 };
 export {
     meta,
-    dataabout,
-    dataportfolio,
-    worktimeline,
-    skills,
-    services,
+    dataprojects,
     introdata,
     contactConfig,
     socialprofils,
