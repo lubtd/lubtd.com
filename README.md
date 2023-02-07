@@ -1,10 +1,10 @@
-## www.lubtd.com
+## www.lumt.is
 
 ### Instructions
 
 ```
-docker build -t lubtd .
-docker run -p 3000:3000 lubtd
+docker build -t lumtis .
+docker run -p 3000:3000 lumtis
 ```
 
 ### Source
