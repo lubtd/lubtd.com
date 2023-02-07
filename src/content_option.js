@@ -54,28 +54,16 @@ const dataprojects = [{
     },
 ];
 
-const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
-};
-
 const socialprofils = {
-    github: "https://github.com/lubtd",
+    github: "https://github.com/lumtis",
     linkedin: "https://www.linkedin.com/in/lucas-bertrand/",
-    twitter: "https://twitter.com/lubtd",
-    telegram: "https://t.me/lubtd",
+    twitter: "https://twitter.com/lumtis_",
+    telegram: "https://t.me/lumtis",
 };
 export {
     meta,
     dataprojects,
     introdata,
-    contactConfig,
     socialprofils,
     logotext,
 };
