@@ -1,9 +1,18 @@
-import React from "react";
-import "./style.css";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import Typewriter from "typewriter-effect";
-import { introdata, meta } from "../../content_option";
-import { Link } from "react-router-dom";
+import './style.css';
+
+import React from 'react';
+
+import {
+  Helmet,
+  HelmetProvider,
+} from 'react-helmet-async';
+import { Link } from 'react-router-dom';
+import Typewriter from 'typewriter-effect';
+
+import {
+  introdata,
+  meta,
+} from '../../content_option';
 
 export const Home = () => {
   return (
@@ -22,7 +31,6 @@ export const Home = () => {
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
               <div className="intro mx-auto">
-
                 <div className="portrait">
                   <img src={introdata.portrait} alt="" />
                 </div>

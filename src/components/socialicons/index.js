@@ -1,18 +1,21 @@
-import React from "react";
-import "./style.css";
+import './style.css';
+
+import React from 'react';
+
 import {
   FaGithub,
-  FaTwitter,
   FaLinkedin,
   FaTelegram,
-} from "react-icons/fa";
-import { socialprofils } from "../../content_option";
+  FaTwitter,
+} from 'react-icons/fa';
+
+import { socialprofils } from '../../content_option';
 
 export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon">
       <ul>
-       {socialprofils.telegram && (
+        {socialprofils.telegram && (
           <li>
             <a href={socialprofils.telegram}>
               <FaTelegram />

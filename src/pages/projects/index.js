@@ -1,8 +1,21 @@
-import React from "react";
-import "./style.css";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Container, Row, Col } from "react-bootstrap";
-import { dataprojects, meta } from "../../content_option";
+import './style.css';
+
+import React from 'react';
+
+import {
+  Col,
+  Container,
+  Row,
+} from 'react-bootstrap';
+import {
+  Helmet,
+  HelmetProvider,
+} from 'react-helmet-async';
+
+import {
+  dataprojects,
+  meta,
+} from '../../content_option';
 
 export const Projects = () => {
   return (
@@ -26,7 +39,7 @@ export const Projects = () => {
                 <img src={data.img} alt="" />
                 <div className="content">
                   <b>{data.title}</b>
-                  <p>{data.desctiption}</p>
+                  <p>{data.description}</p>
                   <a href={data.link}>view project</a>
                 </div>
               </div>

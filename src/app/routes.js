@@ -1,10 +1,18 @@
-import React from "react";
-import { Route, Switch, withRouter } from "react-router-dom";
+import React from 'react';
 
-import { Home } from "../pages/home";
-import { Projects } from "../pages/projects";
-import { Socialicons } from "../components/socialicons";
-import { CSSTransition, TransitionGroup } from "react-transition-group";
+import {
+  Route,
+  Switch,
+  withRouter,
+} from 'react-router-dom';
+import {
+  CSSTransition,
+  TransitionGroup,
+} from 'react-transition-group';
+
+import { Socialicons } from '../components/socialicons';
+import { Home } from '../pages/home';
+import { Projects } from '../pages/projects';
 
 const AnimatedSwitch = withRouter(({ location }) => (
   <TransitionGroup>
