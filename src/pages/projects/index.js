@@ -12,6 +12,7 @@ import {
   HelmetProvider,
 } from 'react-helmet-async';
 
+import { Project } from '../../components/project';
 import {
   dataprojects,
   meta,
@@ -38,9 +39,14 @@ export const Projects = () => {
               <div key={i} className="po_item">
                 <img src={data.img} alt="" />
                 <div className="content">
-                  <b>{data.title}</b>
-                  <p>{data.description}</p>
-                  <a href={data.link}>view project</a>
+                  <b
+                    style={{
+                      margin: "20px",
+                    }}
+                  >
+                    {data.title}
+                  </b>
+                  <Project data={data} />
                 </div>
               </div>
             );
