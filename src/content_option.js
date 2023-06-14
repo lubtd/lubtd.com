@@ -43,7 +43,7 @@ const dataprojects = [
         </h4>
         <p>I'm also the main author of the whitepaper.</p>
         <h4>
-          <a href="https://github.com/tendermint/spn/blob/main/papers/whitepaper.pdf">
+          <a href="https://pdfhost.io/v/ygQi86Q4i_Whitepaper">
             Whitepaper
           </a>
         </h4>
